@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body style="background-image: url('static/bg.jpeg'); background-size:cover;background-position:center;background-repeat:no repeat;">
+    <h2 style="text-align:center; color:blue; font-style:verdana; padding:20px;">Enter here to classify</h2> 
+    <form action="{{url_for("classify")}}" method="post" style="text-align:center;padding:20px;">
+        <textarea  placeholder="enter here" name="data" rows=20 cols=100></textarea>
+        <div style="text-align:center;padding:20px;">
+        <button type='submit' placeholder='classify' >classify</button>
+        </div>
+    
+    </form>
+<p style="text-align:center;padding:20px;text-size:10px">{{out}}</p>
+</body>
+</html>
