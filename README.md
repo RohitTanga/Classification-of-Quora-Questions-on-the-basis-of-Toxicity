@@ -1,4 +1,4 @@
-# Finetuning-BERT-For-classification-of-text
+# Classification-of-Quora-Questions-on-the-basis-of-Toxicity
 ## Dataset classification of quora questions sincere/insincere
 
 An insincere question is defined as a question intended to make a statement rather than look for helpful answers. Some characteristics that can signify that a question is insincere:
